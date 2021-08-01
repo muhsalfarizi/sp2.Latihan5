@@ -1,0 +1,48 @@
+function dataHandling2 (postcode, name, addres, birthday, gender, graduate){
+        var human = {
+            kodepos: postcode,
+            nama: name,
+            alamat: addres,
+            ulangtahun: birthday,
+            kelamin: gender,
+            lulusan: graduate
+        }
+            console.log(human);
+    
+    var nama = ['0001', 'Roman Alamsyah', 'Bandar Lampung', '21/05/1989', 'Membaca'] 
+    nama.splice(4) = ('Provinsi Bandar Lampung', 'Pria', 'SMA Internasional Metro')
+    console.log(nama);
+}
+var nama1 = ('21/05/1989')
+    nama1.split('')
+    console.log();
+
+var nama2 = ['0001', 'Roman Alamsyah Elshawy', 'Provinsi Bandar Lampung', '21/05/1989', 'Pria', 'SMA Internasional Metro']
+    nama2.join('-')
+    console.log(nama2);
+
+var nama3 = ('0001', 'Roman Alamsyah Elshawy', 'Provinsi Bandar Lampung', '21/05/1989', 'Pria', 'SMA Internasional Metro')
+switch (nama3){
+    case 'postcode':
+        teks = 0001;
+        break;
+    case "name":
+        teks = "Roman Alamsyah Elshawy";
+        break;
+    case "addres":
+        teks = "Provinsi Bandar Lampung";
+        break;
+    case 'birthday':
+        teks = 21/05/1989;
+        break;
+    case 'gender':
+        teks = 'Pria';
+        break;
+    case 'graduate':
+        teks = 'SMA Internasional Metro';
+        break;
+    default:
+        teks = '';
+        break;
+}
+    console.log(nama1);
